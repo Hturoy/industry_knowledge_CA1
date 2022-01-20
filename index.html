@@ -12,18 +12,23 @@
 </head>
 <body>
     <section id="sectionOne" class="sectionHome">
-        <nav class="navBar">
+        <!-- <nav class="navBar">
             <div class="logoPlaceholder"></div>
             <a href="#" class="navLink">Home</a>
             <a href=".sectionProjects" class="navLink">Projects</a>
             <a href="#" class="navLink">About me</a>
-        </nav>
+        </nav> -->
         <nav class="burgerMenu">
-            <div class="burgerMenuIcon"></div>
-            <div class="logoPlaceholder"></div>
-            <a href="#" class="navLink">Home</a>
-            <a href="#sectionTwo" class="navLink">Projects</a>
-            <a href="#" class="navLink">About me</a>
+            <div class="burgerMenuIcon">
+                <img onclick="openMenu()" class="menuIcon" src="./icons/Icon feather-menu.svg" alt="menu icon">
+                <img onclick="closeMenu()" class="closeIcon" src="./icons/closeIcon.svg" alt="menu icon">
+
+            </div>
+            <div class="wrapperBurgerLink">
+                <a href="#" class="navLink">Home</a>
+                <a href="#sectionTwo" class="navLink">Projects</a>
+                <a href="#" class="navLink">About me</a>
+             </div>
         </nav>
 
         <div class="containerHome">

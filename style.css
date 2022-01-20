@@ -34,15 +34,37 @@ section {
     align-items: center;
     margin: 0 0 0 10%;
 }
+
+.burgerMenuIcon{
+    z-index: 2;
+}
+
+.menuIcon:hover {
+    opacity: 50%;
+}
+
+.closeIcon {
+    display: none;
+    border-color: #CCA43B;
+}
+
 .navLink {
     margin: 0 75px 0 75px ;
     font-size: 30px;
 }
 
-.logoPlaceholder {
-    height: 30px;
-    width: 30px;
-    background-color: #CCA43B;
+.wrapperBurgerLink{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    z-index: 1;
+    border: solid 1px white;
+    background-color: #313131;
 }
 
 .containerHome{
