@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+section {
+    height: 100vh;
+    width: 100%;
+}
+.sectionHome {
+
+    background-color: #363636;
+}
+
+.sectionProjects {
+    background-color: #313131;
+}
+
+.navBar {
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 0 10%;
+    display: none;
+}
+.burgerMenu {
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 0 0 10%;
+}
+.navLink {
+    margin: 0 75px 0 75px ;
+    font-size: 30px;
+}
+
+.logoPlaceholder {
+    height: 30px;
+    width: 30px;
+    background-color: #CCA43B;
+}
+
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+
+
+.homeText1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #CCA43B;
+    margin-left: 5px;
+}
+
+.homeText2 {
+    font-size: 75px;
+    margin: -10px 0 -50px 0;
+    font-weight: 600;
+}
+
+.moreButtonHome{
+    margin: 100px 0 0 0;
+    font-size: 18px;
+    color: #CCA43B;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
