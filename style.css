@@ -1,100 +1,171 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: 0;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+}
+
 section {
-    height: 100vh;
-    width: 100%;
+  height: 100vh;
+  width: 100%;
 }
 .sectionHome {
-
-    background-color: #363636;
+  background-color: #363636;
 }
 
 .sectionProjects {
-    background-color: #313131;
+  background-color: #313131;
 }
 
 .navBar {
-    height: 150px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 0 0 0 10%;
-    display: none;
+  height: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 0 0 10%;
+  display: none;
 }
 .burgerMenu {
-    height: 150px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin: 0 0 0 10%;
+  height: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 0 0 10%;
 }
 
-.burgerMenuIcon{
-    z-index: 2;
+.burgerMenuIcon {
+  z-index: 2;
 }
 
 .menuIcon:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .closeIcon {
-    display: none;
-    border-color: #CCA43B;
+  display: none;
+  border-color: #cca43b;
 }
 
 .navLink {
-    margin: 75px 75px 75px 75px ;
-    font-size: 30px;
+  margin: 75px 75px 75px 75px;
+  font-size: 30px;
 }
 
-.wrapperBurgerLink{
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
-    background-color: #313131;
+.wrapperBurgerLink {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #313131;
 }
 
-.containerHome{
-    display: flex;
-    flex-direction: column;
-    margin: 10%;
+.containerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  margin: 10%;
 }
-
-
 
 .homeText1 {
-    font-size: 50px;
-    font-weight: 600;
-    color: #CCA43B;
-    margin-left: 5px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #cca43b;
 }
 
 .homeText2 {
-    font-size: 75px;
-    margin: -10px 0 -50px 0;
-    font-weight: 600;
+  font-size: 60px;
+  margin: -0 0 -10px 0;
+  font-weight: 600;
 }
 
-.moreButtonHome{
-    margin: 100px 0 0 0;
-    font-size: 18px;
-    color: #CCA43B;
-    font-size: 30px;
-    margin-left: 5px;
+.moreButtonHome {
+  font-size: 18px;
+  color: #cca43b;
+  font-size: 30px;
+  margin-left: 5px;
 }
 
+.moreBtn {
+  margin-top: 100px;
+}
+
+/* section two */
+
+.wrapperSectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 0 10%;
+}
+
+.sectionHeadline {
+  font-size: 50px;
+  color: #cca43b;
+}
+
+.sectionHeadline2 {
+  font-size: 30px;
+  color: #cca43b;
+}
+
+.imgFrame {
+  border: solid #cca43b 5px;
+  border-radius: 8px;
+  position: relative;
+  bottom: -10px;
+  right: -20px;
+  margin: 20px;
+}
+.portrait {
+  height: 250px;
+  position: relative;
+  top: -10px;
+  left: -20px;
+}
+
+.sectionText {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0 10px;
+}
+
+.sectionParagraph {
+  font-size: 16px;
+  margin: 20px 0 0 0;
+}
+
+.viewMore {
+  height: 50px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #cca43b;
+  color: #242f40;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.viewMore:hover {
+  background-color: #242f40;
+  color: #cca43b;
+}

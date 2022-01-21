@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet"> 
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <section id="sectionOne" class="sectionHome">
-        <!-- <nav class="navBar">
+      <!-- <nav class="navBar">
             <div class="logoPlaceholder"></div>
             <a href="#" class="navLink">Home</a>
             <a href=".sectionProjects" class="navLink">Projects</a>
             <a href="#" class="navLink">About me</a>
         </nav> -->
-        <nav class="burgerMenu">
-            <div class="burgerMenuIcon">
-                <img onclick="openMenu()" class="menuIcon" src="./icons/Icon feather-menu.svg" alt="menu icon">
-                <img onclick="closeMenu()" class="closeIcon" src="./icons/closeIcon.svg" alt="menu icon">
-
-            </div>
-            <div class="wrapperBurgerLink">
-                <a href="#" class="navLink">Home</a>
-                <a href="#sectionTwo" class="navLink">Projects</a>
-                <a href="#" class="navLink">About me</a>
-             </div>
-        </nav>
-
-        <div class="containerHome">
-
-            <div class="wrapperHomerText">
-            <p class="homeText1">Henrik Turøy</p>
-            <p class="homeText2">Frontend</p>
-            <p class="homeText2">Developer</p>
-            </div>
-            <a class="moreButtonHome" href="#sectionTwo">More</a>
-
+      <nav class="burgerMenu">
+        <div class="burgerMenuIcon">
+          <img
+            onclick="openMenu()"
+            class="menuIcon"
+            src="./icons/Icon feather-menu.svg"
+            alt="menu icon"
+          />
+          <img
+            onclick="closeMenu()"
+            class="closeIcon"
+            src="./icons/closeIcon.svg"
+            alt="menu icon"
+          />
         </div>
+        <div class="wrapperBurgerLink">
+          <a href="#" class="navLink">Home</a>
+          <a href="#sectionTwo" class="navLink">Projects</a>
+          <a href="#" class="navLink">About me</a>
+        </div>
+      </nav>
 
-
+      <div class="containerHome">
+        <div class="wrapperHomerText">
+          <p class="homeText1">Henrik Turøy</p>
+          <p class="homeText2">Frontend</p>
+          <p class="homeText2">Developer</p>
+        </div>
+        <div class="flexColumn moreBtn">
+          <a class="moreButtonHome" href="#sectionTwo">More</a>
+          <a href="#sectionTwo"
+            ><img src="./icons/arrowdown.svg" alt="arrow down icon"
+          /></a>
+        </div>
+      </div>
     </section>
 
-    <section id="sectionTwo" class="sectionProjects"></section>
-</body>
-<script src="script.js"></script>
+    <section id="sectionTwo" class="sectionProjects">
+      <div class="wrapperSectionTwo">
+        <h1 class="sectionHeadline">About Me</h1>
+        <div class="imgFrame">
+          <img
+            src="./icons/placeholderImg.svg"
+            alt="portrait image"
+            class="portrait"
+          />
+        </div>
+        <div class="sectionText">
+          <h2 class="sectionHeadline2">Headline</h2>
+          <p class="sectionParagraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Praesentium excepturi nihil sapiente error magni. Officia at sint
+            inventore, illo, modi distinctio quibusdam assumenda velit.
+          </p>
+          <button class="viewMore">More</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
 </html>
