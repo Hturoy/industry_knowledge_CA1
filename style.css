@@ -46,7 +46,7 @@ section {
   z-index: 2;
 }
 
-.menuIcon,
+.menuIcon:hover,
 .closeIcon:hover {
   opacity: 50%;
 }
