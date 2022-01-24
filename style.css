@@ -170,3 +170,15 @@ section {
   background-color: #242f40;
   color: #cca43b;
 }
+
+/*  */
+
+@media only screen and (min-width: 1024px) {
+  .navBar {
+    display: flex;
+  }
+
+  .burgerMenu {
+    display: none;
+  }
+}
